@@ -1,0 +1,243 @@
+
+body{
+    background-color: #FEF8EB
+}
+
+#headname{
+    padding-top: 30;
+    font-family: "amandine", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+/* hwo tf do I get my name to be in the center */
+
+#navbar {
+   align-items: center;
+   text-align: center;
+    line-height: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    }
+
+.nav-item a{
+    font-family: "futura-pt", sans-serif;
+font-weight: 400;
+font-style: normal;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-item {margin: auto;}
+
+#container {
+    display: flex;
+    padding-top: 150;
+    padding-left: 5;
+    gap: 20px; /* Space between text and image */
+    font-family: "amandine", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+flex-direction:row;
+font-size: 2em;
+}
+
+
+.briefbio {font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: .7em;
+align-items: center;}
+
+.linkedin {
+    color: black; /* Ensures the color overrides other styles */
+    font-family: "futura-pt", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 0.9em;
+    text-decoration: underline;
+   }
+
+img {
+    width: 30%; /* Adjust image size */
+    height: auto;
+}
+
+#headingandsub {padding-left: 30;}
+
+.storyheading
+{ 
+    font-family: "futura-pt", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    flex-direction: column;
+    font-size: 1.8em
+    }
+
+.storysub{
+    
+    font-family: "futura-pt", sans-serif;
+    font-weight: 100;
+    font-size: .9em;
+    font-style: normal
+align-items: center}
+
+#mymusic{
+   align-items: center;
+   text-align: center;
+    font-family: "amandine", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: .9em;
+}
+.playlists {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    gap: 10px;
+    width: 50%; /* This might not be enough to center it—see below. Used AI for this div class */
+    margin: 0 auto; }
+
+   
+   /*@media (orientation: portrait) 
+    #content {
+      width: 100%;
+    } */
+
+#thecircle{
+    padding-left: 20;
+}
+.circlehead{
+    width: 100%;
+    padding-top: 20;
+    font-family: "amandine", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+.circletext{
+    font-family: "futura-pt", sans-serif;
+    font-size: 1.2em;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+}
+
+#LiveNation{
+    padding-left: 20px;
+    padding-top: 30;
+}
+
+.lnhead{
+    width: 100%;
+    padding-top: 20;
+    font-family: "amandine", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.5em;
+}
+.livenationphoto{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 30;
+    gap: 60px;
+    padding-bottom: 30;
+}
+
+.livenationphoto{
+    font-family: "futura-pt", sans-serif;
+    font-size: 1.2em;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+}
+
+#blackboard{
+    padding-left: 20;
+    padding-top: 30;
+}
+    .blackboardhead{
+    color:black; 
+    width: 100%;
+    padding-top: 20;
+    font-family: "amandine", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+
+ .bbphotos{
+    width: 100%;
+    padding-top: 30;
+    display: flex;
+    gap: 60px;
+    flex-direction: column
+}
+
+.winterspringtext{
+    font-family: "futura-pt", sans-serif;
+    font-size: 1.2em;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+    
+}
+.blackaftext{
+    padding-bottom: 30;
+    font-family: "futura-pt", sans-serif;
+    font-size: 1.2em;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px  
+}
+
+#AOprod{
+    padding-left: 20;
+    padding-top: 30;
+    padding-bottom: 20;
+}
+.AOhead{
+    width: 100%;
+    padding-top: 30;
+    font-family: "amandine", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+.aophotos {
+    width: 100%;
+    padding-top: 30;
+    display: flex;
+    gap: 60px;
+    flex-direction: column
+}
+.djA{
+    font-family: "futura-pt", sans-serif;
+    font-size: 1.2em;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+}
+
+.zacfox{
+    font-family: "futura-pt", sans-serif;
+    font-size: 1.2em;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+}
