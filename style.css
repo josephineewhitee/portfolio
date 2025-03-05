@@ -9,7 +9,7 @@ a{
 }
 /* About me page */
 #headname{
-    padding-top: 30;
+    padding-top: 30; /* makes sure that my name isn't hugging the top of the screen */
     font-family: "amandine", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -129,6 +129,15 @@ img {
 
 
 /* Projects and Experience Page */
+
+#myskills{
+    font-family:"futura-pt", sans-serif;
+    align-items: center;
+    text-align: center;
+    padding-left: 300;
+    padding-right: 300;
+    padding-top: 70;
+}
 #thecircle{
     padding-left: 20;
 }
