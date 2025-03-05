@@ -3,6 +3,11 @@ body{
     background-color: #FEF8EB
 }
 
+a{
+    color:black;
+    text-decoration: underline;
+}
+/* About me page */
 #headname{
     padding-top: 30;
     font-family: "amandine", sans-serif;
@@ -11,9 +16,8 @@ body{
     font-size: 2em;
     text-align: center;
     align-items: center;
-    width: 100%;
+ 
 }
-/* hwo tf do I get my name to be in the center */
 
 #navbar {
    align-items: center;
@@ -37,24 +41,24 @@ font-style: normal;
 #container {
     display: flex;
     padding-top: 150;
-    padding-left: 5;
+    padding-left: 200;
+    padding-right: 200;
     gap: 20px; /* Space between text and image */
-    font-family: "amandine", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-flex-direction:row;
-font-size: 2em;
+    flex-direction:row;
+    font-size: 1.6em;
 }
 
 
 .briefbio {font-family: "futura-pt", sans-serif;
+    width: 100%;
+    padding-top: 100;
     font-weight: 400;
     font-style: italic;
     font-size: .7em;
 align-items: center;}
 
 .linkedin {
-    color: black; /* Ensures the color overrides other styles */
+    color: black; 
     font-family: "futura-pt", sans-serif;
     font-weight: 100;
     font-style: italic;
@@ -67,48 +71,64 @@ img {
     height: auto;
 }
 
+#mymusic{
+    align-items: center;
+    text-align: center;
+     font-family: "amandine", sans-serif;
+     font-weight: 100;
+     font-style: normal;
+     font-size: .9em;
+ }
+ .playlists {
+     display: flex;
+     flex-direction: row;
+     justify-content: center; /* Centers items horizontally */
+     align-items: center; /* Centers items vertically */
+     gap: 10px;
+     width: 50%; /* This might not be enough to center it—see below. Used AI for this div class to center my items */
+     margin: auto; }
+
+.AItext{
+    font-family:"futura-pt", sans-serif;
+    text-align: center;
+    align-items: center;
+    font-weight: 50;
+    font-style: italic;
+    font-size: .7em;
+
+}
+     
+/* How To Page  */
 #headingandsub {padding-left: 30;}
 
 .storyheading
 { 
+    padding-top: 30px;
+    display:flex;
+    flex-direction: column;
     font-family: "futura-pt", sans-serif;
     font-weight: 700;
-    font-style: italic;
-    flex-direction: column;
-    font-size: 1.8em
+    font-size: 1.2em;
     }
 
-.storysub{
-    
-    font-family: "futura-pt", sans-serif;
-    font-weight: 100;
-    font-size: .9em;
-    font-style: normal
-align-items: center}
-
-#mymusic{
-   align-items: center;
-   text-align: center;
-    font-family: "amandine", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    font-size: .9em;
+    .storysub{
+    font-family:"futura-pt", sans-serif;
+    font-size: 1.1em
 }
-.playlists {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; /* Centers items horizontally */
-    align-items: center; /* Centers items vertically */
-    gap: 10px;
-    width: 50%; /* This might not be enough to center it—see below. Used AI for this div class */
-    margin: 0 auto; }
 
-   
-   /*@media (orientation: portrait) 
-    #content {
-      width: 100%;
-    } */
+#storybodytext{
+    padding-bottom:20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family:"futura-pt", sans-serif
+    
+}
+.knightlab{
+    text-decoration:underline
+}
 
+
+/* Projects and Experience Page */
 #thecircle{
     padding-left: 20;
 }
@@ -123,7 +143,7 @@ align-items: center}
 
 .circletext{
     font-family: "futura-pt", sans-serif;
-    font-size: 1.2em;
+    font-size: 1.9em;
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -154,7 +174,7 @@ align-items: center}
 
 .livenationphoto{
     font-family: "futura-pt", sans-serif;
-    font-size: 1.2em;
+    font-size: 1.9em;
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -186,7 +206,7 @@ align-items: center}
 
 .winterspringtext{
     font-family: "futura-pt", sans-serif;
-    font-size: 1.2em;
+    font-size: 1.9em;
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -196,7 +216,7 @@ align-items: center}
 .blackaftext{
     padding-bottom: 30;
     font-family: "futura-pt", sans-serif;
-    font-size: 1.2em;
+    font-size: 1.9em;
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -226,7 +246,7 @@ align-items: center}
 }
 .djA{
     font-family: "futura-pt", sans-serif;
-    font-size: 1.2em;
+    font-size: 1.9em;
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -235,9 +255,21 @@ align-items: center}
 
 .zacfox{
     font-family: "futura-pt", sans-serif;
-    font-size: 1.2em;
+    font-size: 1.9em;
     align-items: center;
     display: flex;
     flex-direction: row;
     gap: 20px
+}
+
+/* my media query to make sure that my content is oriented for portrait as well as desktop*/
+@media (orientation: portrait) {
+    body {
+        padding-left: 5%;
+        padding-right: 5%;
+        width:100%;
+        background-color:#F6E9DF} /* changes the background color when in portrait mode. I used this to check that my media query was working */
+    #content{
+        width:100%
+    }
 }
